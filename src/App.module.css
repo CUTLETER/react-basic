@@ -1,0 +1,12 @@
+.app_wrap {
+  border: 2px solid forestgreen;
+}
+
+.app_wrap > .title {
+  background-color: orange;
+}
+
+:global .content {
+  color : red;
+  font-size: 30px;
+}

@@ -1,4 +1,6 @@
 import { useRef } from "react";
+
+// 화면에서 직접적으로 접근해야 될 태그가 있다면? useRef 사용하기!
 // useRef 는 객체를 반환해줌
 // current 속성 이용하면 특정 태그에 바로 접근 가능해짐
 // JS 의 querySelector(""); 와 비슷함

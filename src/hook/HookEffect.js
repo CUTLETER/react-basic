@@ -6,9 +6,9 @@ function HookEffect() {
 
   // 1.
   //useEffect 훅 -> 컴포넌트의 생명주기 관리 담당
-  useEffect(() => {
-    console.log('마운트 이후에 동작됨 - 실행 순서2');
-  });
+  //useEffect(() => {
+  //  console.log('마운트 이후에 동작됨 - 실행 순서2');
+  //});
   //console.log('코드 실행됨 - 실행 순서1');
   // 코드가 다 실행되고 나서 마운트 된 이후에 실행되므로 순서가 저렇게 됨
   // useEffect의 두번째 인자값을 비워두면
